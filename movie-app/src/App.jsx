@@ -5,7 +5,6 @@ import Spinner from './components/Spinner';
 import MovieCard from './components/MovieCard';
 import {useDebounce} from 'react-use';
 import {getTrendingMovies, updateSearchCount} from './appwrite.js';
-import { index } from 'mathjs';
 const API_BASE_URL = 'https://api.themoviedb.org/3';
 const API_KEY = import.meta.env.VITE_TMDB_API_KEY;
 const API_OPTIONS = {
